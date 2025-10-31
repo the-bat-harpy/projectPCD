@@ -119,12 +119,6 @@ public class Painel {
 		JPanel optionsPainel = new JPanel(new GridLayout (2,2));
 		optionsPainel.setBackground(new Color(237, 237, 237));
 		
-		Color[] cores = {
-				new Color vermelho = rgba(222, 73, 73),
-				new Color azul = rgba(36, 118, 224),
-				new Color amarelo = rgba(235, 201, 35),
-				new Color verde = rgba(15, 168, 36)
-			};
 		
 		for (int i= 0; i < 4; i++) {
 			JButton botao = new JButton();
